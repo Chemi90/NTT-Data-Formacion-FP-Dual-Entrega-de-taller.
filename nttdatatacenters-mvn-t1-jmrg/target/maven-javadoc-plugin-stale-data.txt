@@ -1,0 +1,46 @@
+-J-Xmx512m
+@options
+@packages
+--class-path
+'C:/dev/WorkSpace/eclipse-workspace/nttdatatacenters-mvn-t1-jmrg/target/classes;C:/dev/WorkSpace/eclipse-workspace/nttdatatacenters-mvn-t1-jmrg/target/test-classes;C:/dev/Maquetacion/Software/Maven/LocalRepository/junit/junit/3.8.1/junit-3.8.1.jar;C:/dev/Maquetacion/Software/Maven/LocalRepository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/dev/WorkSpace/eclipse-workspace/nttdatatacenters-mvn-t1-jmrg/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/dev/WorkSpace/eclipse-workspace/nttdatatacenters-mvn-t1-jmrg/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'nttdatatacenters-mvn-t1-jmrg 0.0.1-SNAPSHOT Test API'
+-link
+'../apidocs'
+-use
+-version
+-windowtitle
+'nttdatatacenters-mvn-t1-jmrg 0.0.1-SNAPSHOT Test API'
+com.nttdata.mvn
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\src\test\java = 1681558903864
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\allclasses-index.html = 1681804013264
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\allpackages-index.html = 1681804013267
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\element-list = 1681804013222
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\help-doc.html = 1681804013296
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\index-all.html = 1681804013287
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\index.html = 1681804013289
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\javadoc.bat = 1681804012379
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\jquery-ui.overrides.css = 1681804013370
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\member-search-index.js = 1681804013271
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\module-search-index.js = 1681804013268
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\overview-tree.html = 1681804013253
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\package-search-index.js = 1681804013269
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\script.js = 1681804013309
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\search.js = 1681804013311
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\stylesheet.css = 1681804013307
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\tag-search-index.js = 1681804013272
+C:\dev\WorkSpace\eclipse-workspace\nttdatatacenters-mvn-t1-jmrg\target\site\testapidocs\type-search-index.js = 1681804013270
