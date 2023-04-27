@@ -3,18 +3,7 @@
 	<property name="logback.configurationStatus" value="off" />
 	<!-- VARIABLES -->
 	<timestamp key="logDate" datePattern="dd-MM-yyyy" />
-	<!-- File APPENDER -->
-	<appender name="salidaArchivo" class="ch.qos.logback.core.FileAppender">
-		<!-- ruta y nombre del fichero -->
-		<file>./logs/logjmrg-${logDate}.log</file>
-		<!-- el fichero se genera de nuevo en cada ejecucion (false) -->
-		<append>false</append>
-		<immediateFlush>true</immediateFlush>
-		<!-- formato de salida -->
-		<encoder>
-			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{32} - [%method] - %msg%n</pattern>
-		</encoder>
-	</appender>
+	
 	<!-- SALIDA POR FICHERO ROLLING -->
 	<appender name="salidaFicheroRolling"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -36,16 +25,17 @@
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-4level %logger{32} - [%method] - %msg%n</pattern>
 		</encoder>
 	</appender>
+	
 	<!-- CONSOLE APPENDER -->
 	<appender name="salidaConsola" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{32} - [%method] - %msg%n</pattern>
 		</encoder>
 	</appender>
+	
 	<!-- EL NIVEL DETERMINA LO ESTRECHA QUE PUEDA SER LA TUBERÍA -->
 	<root level="debug">
 		<appender-ref ref="salidaConsola" />
-		<appender-ref ref="salidaArchivo" />
 		<appender-ref ref="salidaFicheroRolling" />
 	</root>
 </configuration>
