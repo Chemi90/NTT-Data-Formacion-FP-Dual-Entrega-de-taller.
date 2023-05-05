@@ -12,9 +12,9 @@ import ch.qos.logback.classic.Logger;
  *
  *         Clase para la creacion de un codigo generador de claves de windows 95
  */
-public class GeneradorCodigoWindows95 {
+public class Windows95GeneratorPass {
 
-	private static final Logger LOG = (Logger) LoggerFactory.getLogger(GeneradorCodigoWindows95.class);
+	private static final Logger LOG = (Logger) LoggerFactory.getLogger(Windows95GeneratorPass.class);
 
 	Random rand = new Random();
 
@@ -23,7 +23,7 @@ public class GeneradorCodigoWindows95 {
 	 * 
 	 * @return the num
 	 */
-	private int numAleatorio1a366() {
+	private int numRandom366() {
 		int num = rand.nextInt(366) + 1;
 		if (LOG.isDebugEnabled())
 			LOG.debug("Número: {}", num);
@@ -35,10 +35,10 @@ public class GeneradorCodigoWindows95 {
 	 * 
 	 * @return the num
 	 */
-	private int numAleatorio95a03() {
+	private int numRandom95to03() {
 		int[] numeros = { 95, 96, 97, 98, 99, 00, 01, 02, 03 };
-		int alea = rand.nextInt(9);
-		int num = numeros[alea];
+		int random = rand.nextInt(9);
+		int num = numeros[random];
 		if (LOG.isDebugEnabled())
 			LOG.debug("Número: {}", num);
 		return num;
@@ -50,7 +50,7 @@ public class GeneradorCodigoWindows95 {
 	 * 
 	 * @return the num
 	 */
-	private int numSumadosDiv7() {
+	private int numPlusesDiv7() {
 		boolean done = false;
 		int num = 0;
 		int aux = 0;
@@ -72,7 +72,7 @@ public class GeneradorCodigoWindows95 {
 	 * 
 	 * @return the num
 	 */
-	private int numAleatorio5() {
+	private int numRandom5() {
 		int num = rand.nextInt(99999);
 		if (LOG.isDebugEnabled())
 			LOG.debug("Número: {}", num);
@@ -84,9 +84,9 @@ public class GeneradorCodigoWindows95 {
 	 * 
 	 * @return String
 	 */
-	public String concatenarTodo() {
-		return String.format("%03d-%02d-OEM-00-%05d-%05d", numAleatorio1a366(), numAleatorio95a03(), numSumadosDiv7(),
-				numAleatorio5());
+	public String concatAll() {
+		return String.format("%03d-%02d-OEM-00-%05d-%05d", numRandom366(), numRandom95to03(), numPlusesDiv7(),
+				numRandom5());
 	}
 
 }

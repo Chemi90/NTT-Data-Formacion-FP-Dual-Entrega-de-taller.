@@ -14,7 +14,7 @@ public class App {
 	 */
 	public static void main(String[] args) {
 
-		GeneradorCodigoWindows95 cod1 = new GeneradorCodigoWindows95();
-		System.out.println("Codigo de activación de Windows 95: " + cod1.concatenarTodo());
+		Windows95GeneratorPass cod1 = new Windows95GeneratorPass();
+		System.out.println("Codigo de activación de Windows 95: " + cod1.concatAll());
 	}
 }
